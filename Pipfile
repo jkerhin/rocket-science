@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 skyfield = "*"
 httpx = {extras = ["http2"], version = "*"}
+click = "*"
 
 [dev-packages]
 pre-commit = "*"
