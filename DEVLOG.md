@@ -43,8 +43,9 @@ learn to use TLEs
 
 # Things learned along the way
 
-TLEs have a short "shelf life". This isn't really surprising, but good to hear it
-explicitly called out:
+## TLEs have a short "shelf life"
+
+This isn't really surprising, but good to hear it explicitly called out:
 
 > Satellite elements go rapidly out of date. As explained below in Checking a TLE’s epoch, you will want to pay attention to the “epoch” — the date on which an element set is most accurate — of every TLE element set you use. Elements are only useful for a week or two on either side of the epoch date. For later dates, you will want to download a fresh set of elements. For earlier dates, you will want to pull an old TLE from the archives.
 
@@ -53,3 +54,9 @@ explicitly called out:
 May be an interesting test to pick a "target date/time" in the middle of a set of TLEs,
 and see how the position changes over time. I.e. if 20 days of TLEs, pick midnight on
 Day 10 TLE and then calculate how far away the Day 0 / Day 20 interpolated positions are
+
+## The Skyfield API is wonderful
+
+Honestly, this is one of the most intuitive and pleasant Python frameworks that I've used
+in a long while, which is especially impressive given how complicated the subject matter
+is (it's literally rocket science!). My hats off to Brandon Rhodes!
